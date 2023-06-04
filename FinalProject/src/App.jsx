@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import S1 from './screens/S1'
+import { ReviewCard } from './components/ReviewCard'
 
 function App() {
   return (
     <div>
-      <S1/>
+      <ReviewCard/>
     </div>
   )
 }

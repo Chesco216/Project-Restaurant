@@ -1,0 +1,25 @@
+.Reviews-container{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Reviews-container h2{   
+width: 335px;
+height: 42px;
+left: 33px;
+top: 167px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 22px;
+/* or 88% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.408px;
+color: #58B96D;
+}
