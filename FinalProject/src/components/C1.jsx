@@ -2,7 +2,9 @@ import React from 'react'
 
 const C1 = () => {
   return (
-    <div>C1</div>
+    <div>
+      <button></button>
+      </div>
   )
 }
 
