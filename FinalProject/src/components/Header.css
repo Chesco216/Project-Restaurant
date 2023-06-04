@@ -1,0 +1,75 @@
+.Header
+{
+    display: block;
+    width: 100vw;
+    height: 155px;
+    background-color: white;
+    align-items: center;
+}
+img
+{
+    width: 35px;
+    height: 43px;
+    margin-right: 5px;
+}
+span
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #116930;
+}
+.tittle
+{
+    display: flex;
+}
+.box
+{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    bottom: 14px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 85vw;
+    height: 57px;
+    border: 1px solid #116930;
+    border-radius: 30px;
+}
+input
+{
+    position: relative;
+    background: transparent;
+    border: none;
+    left: 15%;
+}
+.texto::placeholder
+{
+    color: #116930;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.iconS
+{
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.iconM
+{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.pizza
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

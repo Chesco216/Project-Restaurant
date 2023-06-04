@@ -5,7 +5,9 @@ export const ReviewContainer = () => {
   return (
     <div className='Reviews-container'>
         <h2>Reseñas</h2>
+        
         <ReviewCardContainer/>
+        
     </div>
   )
 }

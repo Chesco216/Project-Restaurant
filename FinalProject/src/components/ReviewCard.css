@@ -8,13 +8,12 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 12px;
+    
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
     padding: 0px;
-    gap: 12px;
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 .caja-top{
     display: flex;
@@ -29,13 +28,20 @@ order: 0;
 flex-grow: 0;
       
 }
+.caja-top img{
+    width: 52px;
+    height: 52px;
+    border-radius: 56px;
+}
 .caja-top-name{
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
     align-items: flex-end;
+
 }
+
 .review-comentario{
     display: flex;
 }
@@ -54,5 +60,19 @@ text-align: justify;
 color: #5B555C;
 margin-top: -6px;
 margin-left: 35px;
+}
+.icono{
+    top: 10px;
+}
+.caja-top-name span{
+    width: 41px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: #261E27;
 }
 
