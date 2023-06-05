@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import S1 from "./screens/S1";
+import Home from "./screens/Home";
 
 function App() {
   return (
     <div>
-      <S1 />
+      <Home/>
     </div>
   );
 }

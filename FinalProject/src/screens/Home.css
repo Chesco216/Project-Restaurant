@@ -1,0 +1,33 @@
+.Home
+{
+}
+.page-container
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+}
+.pedir-prom
+{
+    /* position: relative; */
+    width: 60vw;
+    height: 44px;
+    /* left: 93px; */
+    /* top: 200px; */
+    margin-left: 40px;
+    background-color: #3A8F4D;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFC216;
+}
+.slider-headers
+{
+    /* position: relative; */
+    margin-left: 20px;
+    color: #116930;
+    font-family: 'Poppins', sans-serif;
+}
