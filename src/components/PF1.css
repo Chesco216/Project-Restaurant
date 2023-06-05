@@ -1,0 +1,117 @@
+.F1{
+    width: 270px;
+    height: 96px;
+    border: 2px solid #fffffffc;
+    background-color: transparent;
+    border-radius: 30px 30px 0 0;
+    margin-left: 15px;
+    display: flex;
+    margin-top: 15px;
+    
+    
+    
+  }
+
+.F1 img{
+    border-radius: 30px 0 0 0;
+    box-shadow: 0 0 0 1px rgb(254, 254, 254);
+    width: 96px;
+    height: 96px;
+    
+}
+.text{
+    
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    
+    
+    
+}
+.text span{
+    color: #E8132C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 6px;
+    
+}
+.text p{
+    color:#707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    width: auto;
+    height: 27.05px;
+    margin-top: 0.06px;
+    
+}
+
+.cant{
+    width: 20.14px; 
+    height: 21.3px; 
+    border-radius: 8px;
+    background-color: #3A8F4D; 
+    display: flex;
+    align-items: normal;
+   
+    
+}
+.cant h1{
+    color:  #F8B908;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.cant h2{
+    width: 72.93px;
+    height: 14.13px;
+    font-size: 8px;
+    color:#707070;
+    margin-left: 5.74px;
+}
+.cant p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 52.53px;
+    height: 21.3px;
+    font-size: 18px;
+    color: #3A8F4D;
+    margin-left: 39.54px;
+    white-space: nowrap;
+
+}
+
+.bot{
+    width: 270px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border-radius: 0 0 30px 30px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.pedido{
+    width: 118px;
+    height: 30px;
+    background-color:  rgba(232, 19, 44, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.more{
+    width: 39px;
+    height: 30px;
+    background-color:  rgba(232, 19, 44, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    
+}

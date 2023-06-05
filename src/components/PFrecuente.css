@@ -1,0 +1,16 @@
+.Back {
+    width: 300px; 
+    height: 909px; 
+    background-image: linear-gradient(to bottom, #E9BE46, #E9BE46); /* Degradado de color */
+
+    margin-left: 13px;
+    gap: 30px;
+    border-radius: 30px;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+    
+  }
