@@ -9,6 +9,8 @@ export const ShCardsContainer = () => {
         <SchCard/>
         <SchCard/>
         <SchCard/>
+        <SchCard/>
+        <SchCard/>
     </div>
   )
 }

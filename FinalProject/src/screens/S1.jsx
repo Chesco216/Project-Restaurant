@@ -1,11 +1,13 @@
-import React from 'react'
-import Header from '../components/Header'
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const S1 = () => {
   return (
     <div>
       <Header />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default S1
+export default S1;

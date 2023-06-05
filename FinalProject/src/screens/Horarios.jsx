@@ -7,8 +7,8 @@ import { SchCard } from '../components/SchCard'
 export const Horarios = () => {
   return (
     <div className='appl'>
-        {/*<SchHeader/>
-        <ShCardsContainer/>
+        <SchHeader/>
+        {/*<ShCardsContainer/>
         <SchCard/>*/}
         <ShCardsContainer/>
     </div>
