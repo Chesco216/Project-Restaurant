@@ -1,14 +1,13 @@
 import React from "react";
-import PizzaCard from "../components/PizzaCard";
 import Header from "../components/Header";
 import MenuOption from "../components/MenuOption";
-const Vegetarian = () => {
+const BigSize = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Opciones Vegetarianas" />
+      <MenuOption category="Grandes" />
     </div>
   );
 };
 
-export default Vegetarian;
+export default BigSize;
