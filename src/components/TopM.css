@@ -7,6 +7,7 @@
     padding: 10px;
     color: #58B96D;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     
@@ -16,6 +17,7 @@
     vertical-align: middle; 
     width: 24px;
     height: 24px; 
-    margin-right: 0; 
+    margin-right: 10px;  
+    
     
   }
