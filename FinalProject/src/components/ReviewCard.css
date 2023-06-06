@@ -1,82 +1,59 @@
-*{
-   width: 100%;
+.review-container{
+    width: 90%;
+height: 176px;
+background: rgba(248, 185, 8, 0.7);
+border-radius: 30px;
+margin-top: -10px;
+margin-bottom: 40px;
 }
-.review-container {
-  height: 176px;
-  background: rgba(248, 185, 8, 0.7);
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 14px;
-  margin-right: 15px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
+.caja-top{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.caja-top {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px 30px 0px 70px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.caja-top-name{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    text-align: right;
+    align-items: flex-end;
+    align-content: stretch;
+    justify-content: center;
 }
-.caja-top img {
-    width: 100%;
-  height: 52px;
-  border-radius: 56px;
-  transform: translate(-6%, -10%);
-}
-.caja-top-name {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  transform: translate(80%, -10%);
-}
+.review-comentario p{
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 90%;
+ height: 110px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
 
-.review-comentario {
-  display: flex;
-  transform: translate(-5%, 10%);
+color: #5B555C;
+transform: translate(5%, 2%);
 }
-.review-comentario p {
-    width: 100%;
-  height: 110px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  /* or 157% */
-
-  text-align: justify;
-
-  color: #5b555c;
-  margin-top: -6px;
-  margin-left: 35px;
+.caja-top img{
+    width: 20%;
+height: 52px;
+float: right;
 }
-.icono {
-  top: 10px;
+.caja-top-name span{
+    width: 41px;
+height: 21px;
 
-}
-.caja-top-name span {
-    width: 100%;
-  height: 21px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
-  color: #261e27;
-  transform: translate(27%, -20%);
-
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+margin-left: 100px;
+color: #261E27;
 }

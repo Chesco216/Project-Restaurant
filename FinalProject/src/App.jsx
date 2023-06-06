@@ -8,8 +8,8 @@ import { Ubicacion } from './screens/Ubicacion';
 function App() {
   return (
     <div>
-      {/*<Reseñas/>*/}
-       <Horarios/>
+     <Reseñas/>
+        {/*<Horarios/>*/}
       {/*<Ubicacion/>*/}
     </div>
   );

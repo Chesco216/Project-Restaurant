@@ -1,7 +1,4 @@
-*{
-    width: 100%;
-    margin: 0ch;
-}
+
 .Reviews-container{
     width: auto;
     display: flex;
@@ -11,7 +8,7 @@
     align-items: center; 
     margin-left:-20px; 
     background-color: #FFFFFF;
-    margin: 2px 15px 0px 21px;
+    margin: 2px 21px 0px 35px;
 }
 .Reviews-container h2{   
 height: 42px;
@@ -19,7 +16,7 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
-line-height: 22px;
+
 /* or 88% */
 
 display: flex;

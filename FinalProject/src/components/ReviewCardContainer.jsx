@@ -9,6 +9,8 @@ export const ReviewCardContainer = () => {
         <ReviewCard/>
         <ReviewCard/>
         <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/> 
     </div>
   )
 }
