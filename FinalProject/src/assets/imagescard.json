@@ -22,5 +22,17 @@
         "imageurl": "../../static/pizzaimageS.png",
         "pizza_name" : "Tradicional",
         "pizza_des" : "Ingredientes que va a llevar la pizza"
+    },
+    {
+        "id" : 5,
+        "imageurl": "../../static/pizzaimageS.png",
+        "pizza_name" : "Tradicional",
+        "pizza_des" : "Ingredientes que va a llevar la pizza"
+    },
+    {
+        "id" : 6,
+        "imageurl": "../../static/pizzaimageS.png",
+        "pizza_name" : "Tradicional",
+        "pizza_des" : "Ingredientes que va a llevar la pizza"
     }
 ]

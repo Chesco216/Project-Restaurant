@@ -1,10 +1,12 @@
 .Home
 {
+    width: 390px;
 }
 .page-container
 {
-    width: 100%;
+    width: 390px;
     height: 100%;
+    margin-bottom: 62px;
     overflow-y: scroll;
 
 }
@@ -13,9 +15,10 @@
     /* position: relative; */
     width: 60vw;
     height: 44px;
+    /* margin-top: ; */
     /* left: 93px; */
     /* top: 200px; */
-    margin-left: 40px;
+    margin-left: 70px;
     background-color: #3A8F4D;
     border-radius: 16px;
     border: none;

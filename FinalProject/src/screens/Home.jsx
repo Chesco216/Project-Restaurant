@@ -17,12 +17,6 @@ const Home = () => {
       <PizzaSliderH />
       <h2 className="slider-headers">Lo mas vendido</h2>
       <PizzaSliderH />
-      <h2 className="slider-headers">Lo mas vendido</h2>
-      <PizzaSliderH />
-      <h2 className="slider-headers">Lo mas vendido</h2>
-      <PizzaSliderH />
-      <h2 className="slider-headers">Lo mas vendido</h2>
-      <PizzaSliderH />
       </div>
       <Footer />
     </div>
