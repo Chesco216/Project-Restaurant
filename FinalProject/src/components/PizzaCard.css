@@ -1,12 +1,3 @@
-.card-container {
-  background-color: #d5d765;
-  border-radius: 30px;
-  margin: 24px;
-  display: flex;
-  padding: 30px 20px;
-  flex-direction: column;
-  gap: 30px;
-}
 .pizza-card {
   border: 1px solid #ffffff;
   border-radius: 30px;
@@ -52,6 +43,7 @@
   color: #707070;
   line-height: 13px;
   margin: 0;
+  width: 100%;
 }
 .available {
   display: flex;

@@ -3,7 +3,24 @@ import "./MenuOption.css";
 import { Icon } from "@iconify/react";
 import PizzaCard from "./PizzaCard";
 import DrinkCard from "./DrinkCard";
+import sizesM from "../assets/sizem.json";
 const MenuOption = ({ category }) => {
+  let content;
+  if (category === "Bebidas") {
+    content = <DrinkCard />;
+  } else {
+    content = sizesM.map((medium) => (
+      <PizzaCard
+        imagen={medium.imgsrc}
+        titulo={medium.title}
+        descripcion={medium.description}
+        numero={medium.number}
+        dispo={medium.disponibility}
+        precio={medium.price}
+        key={medium.id}
+      />
+    ));
+  }
   return (
     <div className="option-container">
       <div className="type">
@@ -16,7 +33,7 @@ const MenuOption = ({ category }) => {
         />
         <h2 className="options">{category}</h2>
       </div>
-      {category === "Bebidas" ? <DrinkCard /> : <PizzaCard />}
+      <div className="pizza-card-container">{content}</div>
     </div>
   );
 };

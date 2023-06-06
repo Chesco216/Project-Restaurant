@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
 import MenuOption from "../components/MenuOption";
+import "./MediumSize.css";
 const MediumSize = () => {
   return (
-    <div>
+    <div className="head">
       <Header />
-      <MenuOption category="Medianas" />
+      <div className="menu-option-container">
+        <MenuOption category="Medianas" />
+      </div>
     </div>
   );
 };

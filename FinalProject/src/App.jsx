@@ -14,16 +14,16 @@ function App() {
     <div>
       {/* <S1 /> */}
       {/* 
-      <MediumSize/>
+  
       <FamiliarSize/>
       <StadiumSize/>
       <BigSize/>
-      
+      <Drinks />
       <Vegetarian />
       <EcoMenu />
       <ForYou />
       */}
-      <Drinks />
+      <MediumSize />
     </div>
   );
 }
