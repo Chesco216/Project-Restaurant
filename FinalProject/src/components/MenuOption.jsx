@@ -2,6 +2,7 @@ import React from "react";
 import "./MenuOption.css";
 import { Icon } from "@iconify/react";
 import PizzaCard from "./PizzaCard";
+import DrinkCard from "./DrinkCard";
 const MenuOption = ({ category }) => {
   return (
     <div className="option-container">
@@ -15,7 +16,7 @@ const MenuOption = ({ category }) => {
         />
         <h2 className="options">{category}</h2>
       </div>
-      <PizzaCard />
+      {category === "Bebidas" ? <DrinkCard /> : <PizzaCard />}
     </div>
   );
 };
