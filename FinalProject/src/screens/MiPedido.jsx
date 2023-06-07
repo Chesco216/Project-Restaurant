@@ -5,7 +5,7 @@ import { PediContainer } from "../components/PediContainer";
 export const MiPedido = () => {
   return (
     <div className="appP">
-      <PediHeader/>
+      <PediHeader title="Mi pedido"/>
       <PediContainer />
     </div>
   );

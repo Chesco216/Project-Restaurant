@@ -1,11 +1,11 @@
 import React from 'react'
-import { UbicHearder } from '../components/UbicHearder'
 import { UbicCardsContainer } from '../components/UbicCardsContainer'
+import { PediHeader } from '../components/PediHeader'
 
 export const Ubicacion = () => {
   return (
     <div className='applU'>
-        <UbicHearder/>
+       <PediHeader title="Ubicación"/>
         <UbicCardsContainer/>
     </div>
   )

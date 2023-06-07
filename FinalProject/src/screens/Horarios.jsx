@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Horarios.css"
-import { SchHeader } from '../components/SchHeader'
+
 import { ShCardsContainer } from '../components/ShCardsContainer'
-import { SchCard } from '../components/SchCard'
+
+import { PediHeader } from '../components/PediHeader'
 
 export const Horarios = () => {
   return (
     <div className='appl'>
-        <SchHeader/>
+        <PediHeader title="Horarios"/>
         {/*<ShCardsContainer/>
         <SchCard/>*/}
         <ShCardsContainer/>

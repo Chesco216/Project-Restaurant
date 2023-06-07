@@ -1,5 +1,7 @@
 .appl{
+    align-items: center; 
     display: flex;
-    align-items: center;
-    
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
 }
