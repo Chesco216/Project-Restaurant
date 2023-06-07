@@ -22,6 +22,18 @@ const PhoneNum = () => {
                 Llojeta: 68068086
             </li>
         </ul>
+        <span className='dep'>El Alto</span>
+        <ul>
+            <li>
+                Ciudad Satélite: 63224545
+            </li>
+            <li>
+                Santiago II: 69895757
+            </li>
+            <li>
+                Villa Adela: 68107878
+            </li>
+        </ul>
     </div>
   )
 }

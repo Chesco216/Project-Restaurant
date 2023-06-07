@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+/* .info-container
+{
+    align-items: center;
+    justify-content: center;
+} */
 .yellow-text-info
 {
     font-family: 'Poppins', sans-serif;

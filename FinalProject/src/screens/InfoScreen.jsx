@@ -2,6 +2,7 @@ import React from 'react'
 import './InfoScreen.css'
 import InfoHead from '../components/InfoHead'
 import PhoneNum from '../components/PhoneNum'
+import DeliveryPrice from '../components/DeliveryPrice'
 
 const InfoScreen = () => {
   return (
@@ -13,6 +14,8 @@ const InfoScreen = () => {
             </span>
             <span className='head-info'>Numeros de telefono</span>
             <PhoneNum />
+            <span className='head-info'>Zonas para envios</span>
+            <DeliveryPrice />
 
         </div>
     </div>
