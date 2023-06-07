@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import MenuOption from "../components/MenuOption";
 import "./MediumSize.css";
+import Footer from "../components/Footer";
 const MediumSize = () => {
   return (
     <div className="head">
