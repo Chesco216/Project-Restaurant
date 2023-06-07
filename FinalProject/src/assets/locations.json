@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "zona":"Tembladerani",
+        "direccion":"Av. Jaimes Freyre N° 1992 (frente al mercado Bolívar)",
+        "horario":"Atención: 16:30 a 22:30 LUN - DOM"
+    },
+    {
+        "id":2,
+        "zona":"San Pedro",
+        "direccion":"Av. Landaeta N° 579 entre Crespo y Gral. Lanza",
+        "horario":"Atención: 17:00 a 22:30 LUN - DOM"
+    },
+    {
+        "id":3,
+        "zona":"Miraflores",
+        "direccion":"Av. Simón Bolívar N° 1933, lado Crecer a pasos del Stadium H. Siles",
+        "horario":"Atención: 17:00 a 22:30 LUN - DOM"
+    },
+    {
+        "id":4,
+        "zona":"Villa Victoria",
+        "direccion":"Av. Republica N° 1453 Frente salón Fortaleza",
+        "horario":"Atención: 17:00 a 22:30 LUN - DOM"
+    },
+    {
+        "id":5,
+        "zona":"Llojeta",
+        "direccion":"Av. Mario Mercado N° 155 (A media cuadra del mercado de Lojeta)",
+        "horario":"Atención: 17:00 a 22:30 LUN - DOM"
+    },
+    {
+        "id":6,
+        "zona":"Ciudad Satélite",
+        "direccion":"Av. Jaimes Freyre N° 1992 (frente al mercado Bolívar)",
+        "horario":"Atención: 16:30 a 22:30 LUN - DOM"
+    },
+    {
+        "id":7,
+        "zona":"Santiago II",
+        "direccion":"Av. Jaimes Freyre N° 1992 (frente al mercado Bolívar)",
+        "horario":"Atención: 16:30 a 22:30 LUN - DOM"
+    },
+    {
+        "id":8,
+        "zona":"Villa Adela",
+        "direccion":"Av. Jaimes Freyre N° 1992 (frente al mercado Bolívar)",
+        "horario":"Atención: 16:30 a 22:30 LUN - DOM"
+    }
+]

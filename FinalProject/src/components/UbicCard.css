@@ -54,3 +54,6 @@ margin:0px -8px;
     justify-content: space-evenly;
     align-items: stretch;
 }
+.Ubcard-container button{
+    align-items: flex-start;
+}

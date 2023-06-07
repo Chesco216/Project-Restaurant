@@ -1,17 +1,18 @@
 import React from "react";
 import "./UbicCard.css";
 
-export const UbicCard = () => {
+export const UbicCard = (props) => {
+    const locations =props.locations
   return (
     <div className="Ubcard-container">
       <button>
         <div className="button-container">
           <div className="ubicacion">
             <img src="/static/images/iconoUbi.svg" alt="" />
-            <span>Tembladerani</span>
+            <span>{locations.zona}</span>
           </div>
           <div className="direccion">
-            <p>Av. Mario Mercado N° 155 (A media cuadra del mercado de Lojeta)</p>
+            <p>{locations.direccion}</p>
           </div>
         </div>
       </button>

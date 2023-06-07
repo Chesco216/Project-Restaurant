@@ -12,10 +12,10 @@ function App() {
   return (
     <div>
      {/* <TamPizzas/>*/}
-     <MiPedido/>
+      {/*<MiPedido/>*/}
      {/*<Reseñas/>*/}
-       {/* <Horarios/>*/}
-     {/*<Ubicacion/>*/}
+      {/* <Horarios/>*/}
+     <Ubicacion/>
     </div>
   );
 }
