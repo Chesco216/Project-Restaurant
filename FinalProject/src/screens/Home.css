@@ -1,10 +1,10 @@
 .Home
 {
-    width: 390px;
+    width: 100vw;
 }
 .page-container
 {
-    width: 390px;
+    width: 100vw;
     height: 100%;
     margin-bottom: 62px;
     overflow-y: scroll;

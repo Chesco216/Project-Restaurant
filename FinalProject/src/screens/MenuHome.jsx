@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const MenuHome = () => {
   return (
-    <div>
+    <div className='menu-home'>
         <Header />
         <MenuSlideV />
         <Footer />

@@ -8,8 +8,8 @@ import LeftMenu from "../src/components/LeftMenu";
 function App() {
   return (
     <div>
-      <Home/>
-      {/* <MenuHome /> */}
+      {/* <Home/> */}
+      <MenuHome />
       {/* <LeftMenu /> */}
       {/* <InfoScreen /> */}
     </div>
