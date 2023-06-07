@@ -1,11 +1,12 @@
 .footer-container {
-  width: 100%;
+  width: 100vw;
   height: 62px;
   position: fixed;
   box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
   bottom: 0px;
   display: flex;
   align-items: center;
+  background-color: white;
 }
 .tabs {
   display: flex;

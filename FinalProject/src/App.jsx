@@ -1,11 +1,17 @@
 import { useState } from "react";
 import "./App.css";
-import S1 from "./screens/S1";
+import Home from "./screens/Home";
+import MenuHome from "./screens/MenuHome";
+import InfoScreen from "./screens/InfoScreen";
+import LeftMenu from "../src/components/LeftMenu";
 
 function App() {
   return (
     <div>
-      <S1 />
+      {/* <Home/> */}
+      <MenuHome />
+      {/* <LeftMenu /> */}
+      {/* <InfoScreen /> */}
     </div>
   );
 }
