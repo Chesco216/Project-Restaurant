@@ -5,7 +5,9 @@ const BigSize = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Grandes" />
+      <div className="container-b">
+        <MenuOption category="Grandes" />
+      </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@
   top: 165px;
   overflow-y: scroll;
   height: calc(100vh - 180px);
+  width: 100%;
 }
 
 .type {

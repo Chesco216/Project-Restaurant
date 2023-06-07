@@ -5,7 +5,9 @@ const EcoMenu = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Menú Económico" />
+      <div className="container-c">
+        <MenuOption category="Menú Económico" />
+      </div>
     </div>
   );
 };

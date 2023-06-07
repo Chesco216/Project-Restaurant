@@ -6,7 +6,7 @@
         "description": "Carne, Chorizo, Cebolla, Jalapeños.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "description": "Carne, Cebolla, Pimiento Morrón, Salsa Barbacoa.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "description": "Jamón, Piña y Cherry.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "description": "Jamón, Carne, Tomate, Pimiento Morrón.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "description": "Jamón, Salame, Locoto, Piña.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "description": "Jamón, Chorizo, Salame, Tomate, Pimiento Morrón, Aceitunas, Champiñon, Choclitos.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "description": "Tocino ahumado, Jamón, Orégano, Champiñón, Salsa de Ajo.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "description": "Jamón y Queso.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "description": "Jamón,  Salame, Salchicha, Cebolla, Champiñón, Pimiento Morrón.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "description": "Carne, Chorizo, Salame.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"] 
     },
     {
         "id": 11,
@@ -96,6 +96,6 @@
         "description": "Jamón, Cebolla, Locoto, Aceitunas, Pimiento Morrón.",
         "number": 3,
         "disponibility": "Disponible",
-        "price": "40Bs"
+        "price": ["40","64","97","125"]
     }
 ]

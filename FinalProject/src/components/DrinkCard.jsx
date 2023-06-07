@@ -1,19 +1,16 @@
 import React from "react";
 import "./DrinkCard.css";
-const DrinkCard = () => {
+const DrinkCard = ({ imagen, titulo, descripcion, precio }) => {
   return (
     <div className="drink-card-container">
       <div className="drink-card">
         <div className="drink-img">
-          <img
-            src="../public/static/images/cocacola.png"
-            alt="bebida-cocacola"
-          />
+          <img src={imagen} alt="" />
         </div>
         <div className="drink-inf">
-          <h3 className="title-drink">Coca Cola</h3>
-          <p className="inf">2L, 1L, 1.5L, 500ml, 300ml</p>
-          <span className="drink-price">15Bs</span>
+          <h3 className="title-drink">{titulo}</h3>
+          <p className="inf">{descripcion}</p>
+          <span className="drink-price">{precio}Bs</span>
         </div>
       </div>
     </div>

@@ -13,10 +13,9 @@ function App() {
   return (
     <div>
       {/* <S1 /> */}
-      {/* 
-  
-      <FamiliarSize/>
-      <StadiumSize/>
+      {/*
+      <FamiliarSize />
+      <StadiumSize />
       <BigSize/>
       <Drinks />
       <Vegetarian />

@@ -4,7 +4,7 @@ const PizzaCard = ({ imagen, titulo, descripcion, numero, dispo, precio }) => {
   return (
     <div className="pizza-card">
       <div className="image-container">
-        <img src={imagen} alt="pizza-mexicana" />
+        <img src={imagen} alt="" />
       </div>
       <div className="information">
         <h3 className="title-pizza">{titulo}</h3>
@@ -13,7 +13,7 @@ const PizzaCard = ({ imagen, titulo, descripcion, numero, dispo, precio }) => {
           <span className="number">{numero}</span>
           <span className="text">{dispo}</span>
         </div>
-        <span className="price">{precio}</span>
+        <span className="price">{precio}Bs</span>
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ export const Drinks = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Bebidas" />
+      <div className="container-d">
+        <MenuOption category="Bebidas" />
+      </div>
     </div>
   );
 };

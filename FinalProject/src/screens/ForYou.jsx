@@ -5,7 +5,9 @@ const ForYou = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Recomendaciones para Ti" />
+      <div className="container-for">
+        <MenuOption category="Recomendaciones para Ti" />
+      </div>
     </div>
   );
 };

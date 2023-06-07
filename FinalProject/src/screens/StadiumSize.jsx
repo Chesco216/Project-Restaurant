@@ -5,7 +5,9 @@ const StadiumSize = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Stadium" />
+      <div className="container-s">
+        <MenuOption category="Stadium" />
+      </div>
     </div>
   );
 };

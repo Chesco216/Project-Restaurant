@@ -5,7 +5,9 @@ const FamiliarSize = () => {
   return (
     <div>
       <Header />
-      <MenuOption category="Familiar" />
+      <div className="container-f">
+        <MenuOption category="Familiar" />
+      </div>
     </div>
   );
 };
