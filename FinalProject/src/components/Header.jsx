@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import "./Header.css";
 
-const C1 = () => {
+const Header = () => {
   return (
     <div className="Header">
       <div className="tittle">
@@ -28,4 +28,4 @@ const C1 = () => {
   );
 };
 
-export default C1;
+export default Header;
