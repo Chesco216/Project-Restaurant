@@ -1,0 +1,144 @@
+/* Cuenta-Iniciada */
+.Font2{
+    position: relative;
+    width: 390px;
+    height: 844px;
+
+    background: linear-gradient(180deg, #3A8F4D 0%, rgba(58, 143, 77, 0.7) 100%);
+
+    }
+
+    .vec{
+    position: absolute;
+    width: 19.47px;
+    height: 18.98px;
+    left: 5px;
+    top: 5px;
+    
+    background: #58B96D;
+    ;
+    }
+    .box-tittle2{
+        display: flex;
+        flex-direction: row;
+        align-items: central;
+        padding: 10px 25px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 297px;
+        height: 65px;
+        left: 25px;
+        top: 275px;
+        
+        background: #58B96D;
+        ;
+        border-radius: 30px;
+        }
+    .restaurant-tittle2{
+    /* PIZZA GOOOL */
+    
+    width: 202px;
+    height: 45px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: 'ExtraBold';
+    font-weight: 800;
+    font-size: 700px;
+    line-height: 45px;
+    top: 60;
+    }
+    .tittle2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #116930;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .logo2{
+    /* logo 4 */
+    
+    width: 35px;
+    height: 43.02px;
+    
+    background: url(logo);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .Share-snap2{
+    /* Invita a todos tus amigos a disfrutar de un fabulosa Pizza!!! */
+    
+    position: absolute;
+    width: 313px;
+    height: 82px;
+    left: 0px;
+    top: 91px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+    .back_container_button2{
+        /* Rectangle 101 */
+        
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 123px;
+        height: 58px;
+        left: 120px;
+        top: 0px;
+        
+        background: #3A8F4D;
+        border: 1px solid #58B96D;
+        border-radius: 50px;
+        }
+        .back-txt2{
+        /* Volver */
+
+position: absolute;
+width: 82px;
+height: 38px;
+left: 10px;
+top: 1px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #F8B908;
+}
+
+
+
+img {
+    width: 35px;
+    height: 43px;
+    margin-right: 5px;
+  }
+
+
+
+

@@ -1,27 +1,32 @@
 import React from "react";
 
-import "./ShareLink.css";
+import "./Sing-in.css";
 
-const ShareLink = () => {
+const Singin = () => {
   return (
     <div className="Font2">
-      <div className="tittle2">
-      <div className="box-tittle2">
-        <div className="restaunrant-tittle2">
-          <img src="../static/logo.png" alt="" />
-          <span className="restaurant2">Pizza Goool</span>
-        </div>
-        <span className="Share-snap2">El usuario fue correctamente registrado</span>
+    <div className="tittle2">
+    <div className="box-tittle2">
+    <img src="../static/logo2.png" alt="" />
+      <div className="restaunrant-tittle2">
+        <span className="restaurant">PIZZA GOOOL</span>
+        <input type="text"  className="texto" />
       </div>
+      <span className="Share-snap2">El usuario fue correctamente registrado</span>
+      
+    </div>
       <button>
             <div className="back_container_button2">
-                <h5>Atras</h5>
+            <div className="back-txt2">
+              <span className="back-txt2">Volver</span>
+              
             </div>
-        </button>
+            </div>
+       </button>
         
       </div>
     </div>
   );
 };
 
-export default ShareLink;
+export default Singin;

@@ -1,7 +1,7 @@
 import React from 'react'
-import {DatesCardContainer} from '../components/DatesCardContainer'
-import {C1} from '../components/Header'
-import {Footer} from '../components/Footer'
+import DatesCardContainer from '../components/DatesCardContainer'
+import C1 from '../components/Header'
+import Footer from '../components/Footer'
 
 
 const Register = () => {

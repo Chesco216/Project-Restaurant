@@ -2,29 +2,41 @@ import React from "react";
 import "./DatesCard.css";
 
 export const DatesCard = (props) => {
-    const Dates =props.Dates
+    const DatesEmail =props.DatesEmail
   return (
 
-    <div className='.Datecard-container'>   
-        <div className="title">
-            <span>{Dates.title}</span>
-          </div>
-        <div className="texto">
-            <p>{Dates.texto}</p>
-          </div>
-          <button>
-            <div className=".sign-in_container_button">
-               <h1>Sign in</h1> 
+  <div className='DatesCard_container'>  
+        <div className="subtittle1">
+            <span className="subtittle1">FisrtName</span>
+         </div>
+        <div className="box_subtittle1">
+            <span className="text_box1">Sarah</span>
+            
+        </div>
+        <div className="subtittle2">
+              <span className="subtittle2">LastName</span>
+        </div>
+        <div className="box_subtittle2">
+              <span className="text_box2">Nielsen</span>
+        </div>
+        <div className="subtittle3">
+              <span className="subtittle3">Correo</span>
+        </div>
+        <div className="box_subtittle3">
+              <span className="text_box3">saranielsen@gmail.com</span>
+        </div>
+        
+
+    <button>
+    <div className="bouton_login">
+            <div className="txt_bouton">
+              <span className="txt_bouton">Login</span>
             </div>
-          </button>
-          <button>
-            <div className=".login_container_button2">
-                <h1>Login</h1>
-            </div>
-          </button>
-    </div>  
+    </div>
+    </button>
+  </div>  
 
         
   )
 };
-export default DatesCard;
+

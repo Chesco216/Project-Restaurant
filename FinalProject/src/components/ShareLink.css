@@ -1,0 +1,116 @@
+/* Cuenta-Iniciada */
+.Font{
+position: relative;
+width: 390px;
+height: 844px;
+
+background: linear-gradient(180deg, #58B96D 0%, #3A8F4D 100%);
+
+}
+
+.vec{
+position: absolute;
+width: 19.47px;
+height: 18.98px;
+left: 5px;
+top: 5px;
+
+background: #F8B908;
+}
+.box-tittle{
+    display: flex;
+    flex-direction: row;
+    align-items: central;
+    padding: 10px 25px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 297px;
+    height: 65px;
+    left: 25px;
+    top: 275px;
+    
+    background: #D5D765;
+    border-radius: 30px;
+    }
+.restaurant-tittle{
+/* PIZZA GOOOL */
+font-family: 'Poppins', sans-serif;
+width: 202px;
+height: 45px;
+
+
+font-weight: 800;
+font-size: 30px;
+line-height: 45px;
+}
+.tittle {
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #116930;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+  input {
+    position: relative;
+    background: transparent;
+    border: none;
+    left: 15%;
+    color: #3a8f4d;
+    width: 80%;
+    font-size: 18px;
+  }
+.logo{
+/* logo 4 */
+
+width: 35px;
+height: 43.02px;
+
+background: url(logo);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Share-snap{
+/* Invita a todos tus amigos a disfrutar de un fabulosa Pizza!!! */
+
+position: absolute;
+width: 313px;
+height: 82px;
+left: 0px;
+top: 91px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+img {
+    height: 43px;
+    width: 34px;
+    left: 25px;
+    top: 11px;
+    border-radius: 0px;
+    
+}
+
+
+
+
+

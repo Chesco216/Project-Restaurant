@@ -1,0 +1,16 @@
+.Pago-card-container
+{
+    width: 246px;
+    height: 186px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 36px;
+    box-shadow: #FFFFFF;
+}
+.Pago-card-container img
+{
+    width: 246px;
+    height: 106px;
+}

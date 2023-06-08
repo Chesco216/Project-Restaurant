@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title2":"First name",
+        "texto2":"Sarah"
+    },
+    {
+        "id":2,
+        "title2":"Last Name",
+        "texto2":"Nielsen"
+    },
+    {
+        "id":3,
+        "title2":"Correo",
+        "texto2":"saranielsen@gmail.com"
+    },
+    {
+        "id":4,
+        "title":"Contraseña",
+        "texto2":"12345678"
+    }
+]

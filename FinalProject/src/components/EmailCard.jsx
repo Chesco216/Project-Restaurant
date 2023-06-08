@@ -5,21 +5,30 @@ export const EmailCard = (props) => {
     const DatesEmail =props.DatesEmail
   return (
 
-    <div className='Emailcard_container'>   
-    <div className="title">
-            <span>{DatesEmail.title}</span>
-          </div>
-          <div className="texto">
-            <p>{DatesEmail.texto}</p>
-          </div>
-          <button>
-            <div className=".EmailCard-container button">
-                Login
+  <div className='Emailcard_container'>  
+        <div className="subtittle">
+            <span className="subtittle">Correo</span>
+         </div>
+         <div className="box_subtittle">  
+              <snap className="text_subtittle">saranielsen@gmail.com</snap>  
+         </div>
+         <div className="subtittle_con">
+              <snap className="subtittle_con">Contraseña</snap>
+         </div>
+         <div className="box_subtittle_con">
+              <snap className="text_con">123456789</snap>
+         </div>
+  
+    <button>
+    <div className="bouton_login">
+            <div className="txt_bouton">
+              <span className="txt_bouton">Login</span>
             </div>
-          </button>
-    </div>  
+    </div>
+    </button>
+  </div>  
 
         
   )
 };
-export default EmailCard;
+

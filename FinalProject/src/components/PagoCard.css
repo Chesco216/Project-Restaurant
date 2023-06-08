@@ -1,0 +1,33 @@
+.pago-txt{
+/* Escoger el tipo de pago */
+
+position: absolute;
+width: 237px;
+height: 33px;
+left: 20px;
+top: 93px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height, or 165% */
+display: flex;
+align-items: center;
+
+color: #707070;
+}
+.pago-cards
+{
+    width: 334px;
+    height: 190px;
+    border-radius: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pago-cards img
+{
+    width: 334px;
+    height: 190px;
+}
