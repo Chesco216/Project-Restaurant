@@ -1,26 +1,27 @@
-.menuappcontainer
-{  
-    width: 100%;
-    height: 900px;
-    background: linear-gradient(180deg, #13802a 0%, rgba(16, 94, 33, 0.7) 100%);
 
-
-}
 .menuapp_input
 {
-flex-direction: column;
+
 width: 300px;
 height: 50px;
-margin-top: 200px;
-margin-left: 50px;
+margin-top: 100px;
 background: #58B96D;
 border-radius: 50px;
-display: flex;
-font-family: 'Poppins', sans-serif;
+
+
+width: 90px;
+height: 22px;
+left: 105px;
+top: 14px;
+font-family: 'Poppins';
+font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 21px;
+display: flex;
+align-items: center;
 text-align: center;
+color: #116930;
 
 
 }
