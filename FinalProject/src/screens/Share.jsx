@@ -1,6 +1,4 @@
 import React from 'react'
-import "./Share.css"
-
 import  ShareLink from '../components/ShareLink'
 
 

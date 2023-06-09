@@ -1,144 +1,105 @@
 /* Cuenta-Iniciada */
-.Font2{
-    position: relative;
-    width: 390px;
-    height: 844px;
-
-    background: linear-gradient(180deg, #3A8F4D 0%, rgba(58, 143, 77, 0.7) 100%);
-
-    }
-
-    .vec{
-    position: absolute;
-    width: 19.47px;
-    height: 18.98px;
-    left: 5px;
-    top: 5px;
+.sing_container{
     
-    background: #58B96D;
-    ;
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(180deg, #13802a 0%, rgba(16, 94, 33, 0.7) 100%);
+
+
     }
-    .box-tittle2{
-        display: flex;
+    .box_sing{
         flex-direction: row;
         align-items: central;
-        padding: 10px 25px;
-        gap: 10px;
-        
-        position: absolute;
-        width: 297px;
-        height: 65px;
-        left: 25px;
-        top: 275px;
-        
+        padding: 5px 25px;
+        position: block;
+        width: 270px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 300px;
         background: #58B96D;
-        ;
-        border-radius: 30px;
+        border-radius: 60px;
         }
-    .restaurant-tittle2{
+    .restaurant-tittle-sing{
     /* PIZZA GOOOL */
-    
+    font-family: 'Poppins', sans-serif;
     width: 202px;
     height: 45px;
-    position: absolute;
-    font-family: 'Poppins';
-    font-style: 'ExtraBold';
     font-weight: 800;
-    font-size: 700px;
-    line-height: 45px;
-    top: 60;
-    }
-    .tittle2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
+    font-size: 30px;
     color: #116930;
-    
-    /* Inside auto layout */
-    flex: none;
+    margin-top: -45px;
+    margin-left: 60px;
+    line-height: 45px;
     order: 1;
     flex-grow: 0;
     }
-    .logo2{
-    /* logo 4 */
     
-    width: 35px;
-    height: 43.02px;
-    
-    background: url(logo);
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    }
-    
-    .Share-snap2{
-    /* Invita a todos tus amigos a disfrutar de un fabulosa Pizza!!! */
-    
-    position: absolute;
-    width: 313px;
-    height: 82px;
-    left: 0px;
-    top: 91px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
+    .sing-snap{
+    width: 350px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: -40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     font-size: 20px;
     line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
-    
     }
-    .back_container_button2{
-        /* Rectangle 101 */
-        
-        box-sizing: border-box;
-        
-        position: absolute;
-        width: 123px;
-        height: 58px;
-        left: 120px;
-        top: 0px;
-        
-        background: #3A8F4D;
-        border: 1px solid #58B96D;
-        border-radius: 50px;
-        }
-        .back-txt2{
-        /* Volver */
+    .sing-snap2
+    {
+    width: 150px;
+    height: 200px;
+    margin-top: 210px;
+    margin-left: 110px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    display: flex;
+    text-align: center;
+    color: #000000;
+    }
+    
+    
+    img {
+        height: 43px;
+        width: 34px;
+        left: 25px;
+        top: 11px;
+        border-radius: 0px;  
+    }
+    .icon-check
+    {
+        margin: 0px 0px 0px 250px;
+    }
+    
+    .back_button_singin
+{   
 
-position: absolute;
-width: 82px;
-height: 38px;
-left: 10px;
-top: 1px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 38px;
-
-display: flex;
-align-items: center;
-text-align: center;
-color: #F8B908;
+  width: 32vw;
+  height: 60px;
+  margin-top: 220px;
+  margin-left: 118px;
+  background: #308a44;
+  border-radius: 50px;
+  border: 1px solid #58B96D;
+  font-family: 'Poppins', sans-serif;   
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #F8B908;
+  
 }
 
 
 
-img {
-    width: 35px;
-    height: 43px;
-    margin-right: 5px;
-  }
 
 
-
+  
 

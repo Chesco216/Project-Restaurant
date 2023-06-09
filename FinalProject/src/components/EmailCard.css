@@ -5,143 +5,21 @@
     display: block;
     margin-top: 30px; 
 }
-
-.subtittle{
-/* Correo */
-position: absolute;
+.subtittle_email
+{
 width: 56px;
-height: 24px;
-left: 37px;
-top: 120px;
-
+height: 35px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height */
-
 color: #000000;
 }
-
-/* Rectangle 22 */
-.box_subtittle{
-box-sizing: border-box;
-
-position: absolute;
+.email_input
+{
 width: 336px;
 height: 38px;
-left: 70px;
-top: 280px;
-
 border: 1px solid #F8B908;
 border-radius: 10px;
-}
-.text_subtittle{
-/* saranielsen@gmail.com */
-
-position: absolute;
-width: 235px;
-height: 38px;
-left: 21px;
-top: 0px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-display: flex;
-align-items: center;
-
-color: #8B8989;
-}
-
-.subtittle_con{
-/* Contraseña */
-position: absolute;
-width: 97px;
-height: 24px;
-left: 37px;
-top: 170px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-color: #000000;
-}
-/* Rectangle 22 */
-.box_subtittle_con{
-box-sizing: border-box;
-
-position: absolute;
-width: 336px;
-height: 38px;
-left: 70px;
-top: 370px;
-
-border: 1px solid #F8B908;
-border-radius: 10px;
-}
-.text_con{
-/* 12345678 */
-
-position: absolute;
-width: 235px;
-height: 38px;
-left: 21px;
-top: 0px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-display: flex;
-align-items: center;
-
-color: #8B8989;
-}
-
-
-
-.bouton_login{
-/* Rectangle 101 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 123px;
-height: 58px;
-left: 210px;
-top: 500px;
-
-background: #3A8F4D;
-border: 1px solid #58B96D;
-border-radius: 50px;
-}
-.txt_bouton{
-/* Login */
-
-position: absolute;
-width: 68px;
-height: 38px;
-left: 12px;
-top: 3px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 38px;
-/* identical to box height */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #F8B908;
 }

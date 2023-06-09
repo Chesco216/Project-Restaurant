@@ -1,30 +1,19 @@
 import React from "react";
 
 import "./Sing-in.css";
-
+import { Icon } from '@iconify/react';
 const Singin = () => {
   return (
-    <div className="Font2">
-    <div className="tittle2">
-    <div className="box-tittle2">
+    <div className="sing_container">
+  
+    <div className="box_sing">
     <img src="../static/logo2.png" alt="" />
-      <div className="restaunrant-tittle2">
-        <span className="restaurant">PIZZA GOOOL</span>
-        <input type="text"  className="texto" />
-      </div>
-      <span className="Share-snap2">El usuario fue correctamente registrado</span>
-      
-    </div>
-      <button>
-            <div className="back_container_button2">
-            <div className="back-txt2">
-              <span className="back-txt2">Volver</span>
-              
-            </div>
-            </div>
-       </button>
-        
-      </div>
+        <span className="restaurant-tittle-sing">PIZZA GOOOL</span>
+        <span className="sing-snap">El usuario fue correctamente registrado</span>
+        <div className="icon-check"></div>
+          <Icon icon="ph:check-circle-duotone" style={{margin:"15px 5px 0px 95px", width:"90px", height:"90px", color:"#FFD233"}} /> 
+          </div>
+          <button className='back_button_singin'>Volver</button>
     </div>
   );
 };

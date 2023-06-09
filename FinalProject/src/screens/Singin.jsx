@@ -8,6 +8,7 @@ export const Sgin = () => {
   return (
     <div className='sng'>
         <Singin/>
+        
     </div>
   )
 } 

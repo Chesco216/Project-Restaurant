@@ -10,11 +10,11 @@ function app() {
   return (
     <div>
       {/*<S1 />*/}
-      {/*<Login/>*/}
-      {<Register/>}
+      {/* <Login/> */}
+      {/*<Register/>*/}
       {/*<Pagos/>*/}
-      {/*<Share/>*/}
-      {/*<Singin/>*/}
+      {/* <Share/> */}
+      <Singin/>
     </div>
   );
 }
