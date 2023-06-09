@@ -1,16 +1,27 @@
 .Pago-card-container
 {
-    width: 246px;
-    height: 186px;
+    width: 300px;
+    height: 300px;
     margin-left: 8px;
     margin-right: 8px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 36px;
+    border-radius: 50px;
     box-shadow: #FFFFFF;
+    display: flex;
 }
-.Pago-card-container img
+.pago_subtittle
 {
-    width: 246px;
-    height: 106px;
+width: 237px;
+height: 33px;
+margin-left: -120px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 33px;
+align-items: left;
+color: #707070;
+}
+.icon_pag
+{
+    margin: 0px 0px 0px 250px;
 }

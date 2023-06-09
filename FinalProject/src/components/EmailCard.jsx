@@ -8,8 +8,6 @@ export const EmailCard = (props) => {
     <div className='Emailcard_container'>  
    
     <span className="subtittle_email">{props.head_email}</span>
-    <div></div>
-    <div></div>
     <input  className="email_input" type="text" placeholder={props.input_email} />
     
          

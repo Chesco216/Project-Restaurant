@@ -6,15 +6,17 @@ import Register from "./screens/Register";
 import Pagos from "./screens/Pagos"
 import Share from "./screens/Share"
 import Singin from "./screens/Singin"
+import Menu from  "./screens/Menu"
 function app() {
   return (
     <div>
       {/*<S1 />*/}
       {/* <Login/> */}
       {/*<Register/>*/}
-      {/*<Pagos/>*/}
+      {/* <Pagos/> */}
       {/* <Share/> */}
-      <Singin/>
+      {/* <Singin/> */}
+      <Menu/>
     </div>
   );
 }

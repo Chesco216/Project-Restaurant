@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
+import C1 from "../components/Header";
 const S1 = () => {
   return (
     <div>
-      <Header />
+      <C1 />
       <Footer />
     </div>
   );

@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Pagos.css"
-/*import {PagoContainer} from '../components/PagoCardContainer'*/
-import { PediHeader } from '../components/PediHeader'
+import PagoContainer from '../components/PagoCardContainer'
+import  PediHeader  from '../components/PediHeader'
 
-export const Pagos = () => {
+ const Pagos = () => {
   return (
     <div className='pag'>
         <PediHeader title="Tipo de pago"/>
         <PagoContainer/>
+
     </div>
   )
 } 

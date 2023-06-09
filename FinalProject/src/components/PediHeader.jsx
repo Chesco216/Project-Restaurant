@@ -1,7 +1,8 @@
 import React from 'react'
 import { Icon } from "@iconify/react";
 import "./PediHeader.css"
-export const PediHeader = ({title}) => {
+
+const PediHeader = ({title}) => {
   return (
     <div className="UbiHearder-Container">
       <div className="box-ubicacion">
@@ -14,4 +15,5 @@ export const PediHeader = ({title}) => {
       </div>
     </div>
   )
-}
+} 
+export default PediHeader

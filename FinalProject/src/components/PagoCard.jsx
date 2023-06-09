@@ -1,15 +1,14 @@
 import React from 'react'
 import './PagoCard.css'
 
-const PagoCard = ({img}) => {
+export const PagoCard = (props) => 
+{
   return (
-    <div className='pago-txt'>
-          <h6>Escoger el tipo de pago</h6> 
-        <div className='pago-cards'>
-        <img src={img} alt="" />
-        </div>
-    </div> 
+    
+    <div className='pago_container'>
+      <input  className="pagos-input" type="text" placeholder={props.input} />
+      <span className="subtittle_metpagos">{props.subtittle}</span>
+    </div>    
+  
   )
 }
-
-export default PagoCard
