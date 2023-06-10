@@ -1,0 +1,20 @@
+.pizza-signo{
+    display: flex;
+    width: 100vw;
+    height: 77px;
+    background-color: white;
+    align-items: center;
+    transform: translate(5%, 10%) 
+}
+.pizza-signo span{
+    transform: translate(-85%, -20%) ; 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 22px; 
+letter-spacing: -0.408px;
+
+color: #58B96D;
+margin-right: 15px;
+}

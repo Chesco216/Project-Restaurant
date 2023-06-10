@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import  useState  from "react";
 import "./App.css";
 <<<<<<< HEAD
@@ -5,10 +6,22 @@ import Home from "./screens/Home";
 import MenuHome from "./screens/MenuHome";
 import InfoScreen from "./screens/InfoScreen";
 import LeftMenu from "../src/components/LeftMenu";
+=======
+import { useState } from 'react'
+import './App.css'
+import S1 from './screens/S1'
+import { Reseñas } from './screens/Reseñas';
+import { Horarios } from './screens/Horarios';
+import { Ubicacion } from './screens/Ubicacion';
+import { PediHeader } from './components/PediHeader';
+import { MiPedido } from './screens/MiPedido';
+import { TamPizzas } from './screens/TamPizzas';
+>>>>>>> Tatiana
 
 function App() {
   return (
     <div>
+<<<<<<< HEAD
       <Home/>
       {/* <MenuHome /> */}
       {/* <LeftMenu /> */}
@@ -58,8 +71,19 @@ function app() {
       {/* <Menu/> */}
 >>>>>>> 538255839df41cc379fbe56955f9a1d02916d588
 >>>>>>> Jheison
+=======
+     {/* <TamPizzas/>*/}
+    <MiPedido/>
+     {/*<Reseñas/>*/}
+        {/*<Horarios/>*/}
+      {/*<Ubicacion/>*/}
+>>>>>>> Tatiana
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default app;
+=======
+export default App;
+>>>>>>> Tatiana
