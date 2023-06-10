@@ -27,9 +27,4 @@ const Header = () => {
     </div>
   );
 };
-
-<<<<<<< HEAD
 export default Header;
-=======
-export default C1;
->>>>>>> Tatiana
