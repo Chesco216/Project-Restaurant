@@ -5,7 +5,7 @@
         "precio": "64 Bs.",
         "ingredientes": "Carne, Chorizo, Cebolla",
         "Tam": "Grande",
-        "nombre": "Mexicana" 
+        "nombre": "Otra" 
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "precio": "84 Bs.",
         "ingredientes": "Carne, Chosdfsdfizo, Cebolla",
         "Tam": "Familiar",
-        "nombre": "Mexicreterana"
+        "nombre": "Mexicana"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "precio": "34 Bs.",
         "ingredientes": "Carne, Chorizo, Cebolla",
         "Tam": "Mediano",
-        "nombre": "Mexicana"
+        "nombre": "Hawayana"
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "precio": "32 Bs.",
         "ingredientes": "Carne, Chorizo, Cebolla",
         "Tam": "Mediano",
-        "nombre": "Mexicana"
+        "nombre": "pinia"
     }
 ]

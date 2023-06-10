@@ -6,7 +6,7 @@ export const Card = (props) => {
         <div className='Card'>
             <span>{pedido.nombre}</span>
             <h1>{pedido.Tam}</h1>
-            <img src={pedido.imagen} alt="" />
+            <img src="/images/img.jpg" alt="" />
             <h3>Ingredientes</h3>
             <p>{pedido.ingredientes}</p>
             <button>Añadir al carrito</button>
