@@ -1,0 +1,13 @@
+.con{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 32px;
+    top: 160px;
+
+    background: #EBCD79;
+    border: 2px solid #FBBC04;
+    border-radius: 30px;
+}
