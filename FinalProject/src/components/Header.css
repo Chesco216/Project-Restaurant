@@ -21,6 +21,7 @@ img {
 }
 .tittle {
   display: flex;
+  margin-left: -50px;
 }
 .box {
   position: relative;
@@ -34,7 +35,7 @@ img {
   border: 1px solid #3a8f4d;
   border-radius: 30px;
 }
-input {
+.texto {
   position: relative;
   background: transparent;
   border: none;
@@ -58,7 +59,7 @@ input {
 .iconM {
   position: relative;
   top: 25px;
-  left: 25px;
+  left: 60px;
 }
 .pizza {
   position: relative;

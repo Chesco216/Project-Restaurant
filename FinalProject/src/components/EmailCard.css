@@ -1,0 +1,25 @@
+.Emailcard-container{
+    width: 90vw;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: block;
+    margin-top: 30px; 
+}
+.subtittle_email
+{
+width: 56px;
+height: 35px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.email_input
+{
+width: 336px;
+height: 38px;
+border: 1px solid #F8B908;
+border-radius: 10px;
+}
