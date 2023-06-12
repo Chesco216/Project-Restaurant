@@ -6,14 +6,16 @@ import PFrecuente from './components/PFrecuente'
 import PF1 from './components/PF1'*/
 import MiPedido from './screens/MiPedido'
 import PedidosFrecuentes from './screens/PedidosFrecuentes' 
-
+import Card from './components/Card'
+import Contenedor from './components/Contenedor'
 function App() {
   return (
     <div>
-    {/* <MiPedido/>  */}
-    <PedidosFrecuentes/> 
+      {/* <MiPedido/>  */}
+      {/* <PedidosFrecuentes/> */}
+      <Contenedor/>
+
     </div>
   )
 }
-
 export default App

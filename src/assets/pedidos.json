@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "imagen": "/images/p1.jpg",
+        "precio": "64 Bs.",
+        "ingredientes": "Carne, Chorizo, Cebolla",
+        "Tam": "Grande",
+        "nombre": "Otra" 
+    },
+    {
+        "id": 2,
+        "imagen": "/images/p1.jpg",
+        "precio": "64 Bs.",
+        "ingredientes": "Carne, Chorizo, Cebolla",
+        "Tam": "Mediano",
+        "nombre": "asd"
+    },
+    {
+        "id": 3,
+        "imagen": "/images/p1.jpg",
+        "precio": "84 Bs.",
+        "ingredientes": "Carne, Chosdfsdfizo, Cebolla",
+        "Tam": "Familiar",
+        "nombre": "Mexicana"
+    },
+    {
+        "id": 4,
+        "imagen": "/images/p1.jpg",
+        "precio": "34 Bs.",
+        "ingredientes": "Carne, Chorizo, Cebolla",
+        "Tam": "Mediano",
+        "nombre": "Hawayana"
+    },
+    {
+        "id": 5,
+        "imagen": "/images/p1.jpg",
+        "precio": "32 Bs.",
+        "ingredientes": "Carne, Chorizo, Cebolla",
+        "Tam": "Mediano",
+        "nombre": "pinia"
+    }
+]

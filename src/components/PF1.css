@@ -1,5 +1,5 @@
 .F1{
-    width: 270px;
+    width: 303px;
     height: 96px;
     border: 2px solid #fffffffc;
     background-color: transparent;
@@ -84,8 +84,8 @@
 }
 
 .bot{
-    width: 270px;
-    height: 50px;
+    width: 303px;
+    height: 64px;
     border: 2px solid #ffffff;
     background-color: transparent;
     border-radius: 0 0 30px 30px;
@@ -95,7 +95,7 @@
     align-items: center;
     
 }
-.pedido-1{
+.Volverapedir{
     width: 120px;
     height: 35px;
     background-color:  rgba(232, 19, 44, 0.6);
@@ -109,7 +109,7 @@
     border: 1px solid red;
     
 }
-.pedido-2{
+.Quitar{
     width: 200px;
     height: 39px;
     background-color:  rgba(232, 19, 44, 0.6);

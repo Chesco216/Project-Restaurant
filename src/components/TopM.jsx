@@ -15,12 +15,11 @@ class TopM extends React.Component{
                 
                 <p>{title}</p>
     
-            </div>
+            </div> 
         </section> 
       )
   
     }
   }
-
 
 export default TopM
