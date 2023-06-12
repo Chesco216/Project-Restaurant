@@ -1,12 +1,14 @@
 import React from "react";
 import "./MiPedido.css";
-import { PediHeader } from "../components/PediHeader";
+import PediHeader from "../components/PediHeader";
 import { PediContainer } from "../components/PediContainer";
-export const MiPedido = () => {
+
+const MiPedido = () => {
   return (
     <div className="appP">
-      <PediHeader/>
+      <PediHeader title={"Mi Pedido"}/>
       <PediContainer />
     </div>
   );
-};
+}
+export default MiPedido;

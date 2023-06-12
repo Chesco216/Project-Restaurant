@@ -3,6 +3,7 @@ import DatesCardContainer from '../components/DatesCardContainer'
 import Footer from '../components/Footer'
 import './Register.css'
 import Header from '../components/Header'
+import { NavLink } from 'react-router-dom'
 
 
 const Register = () => {
@@ -10,8 +11,10 @@ const Register = () => {
     <div className='page_container_reg'>
         <Header />
         <DatesCardContainer/>
-
-        <button className='login_button'>Login</button> <button className='singin_button'>Sing in</button>
+        <NavLink to={'/login'}>
+          <button className='login_button'>Login</button> 
+        </NavLink>
+        <button className='singin_button'>Sing in</button>
           
         <Footer/>
 

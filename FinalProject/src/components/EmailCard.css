@@ -2,8 +2,10 @@
     width: 90vw;
     height: 50px;
     background-color: #FFFFFF;
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin-top: 30px; 
+    margin-left: 0;
 }
 .subtittle_email
 {
@@ -18,8 +20,9 @@ color: #000000;
 }
 .email_input
 {
-width: 336px;
+width: 200px;
 height: 38px;
 border: 1px solid #F8B908;
 border-radius: 10px;
+margin: 0;
 }

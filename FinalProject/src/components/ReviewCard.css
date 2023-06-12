@@ -1,10 +1,11 @@
 .review-container{
     width: 90%;
-height: 176px;
-background: rgba(248, 185, 8, 0.7);
-border-radius: 30px;
-margin-top: -10px;
-margin-bottom: 40px;
+    height: 180px;
+    background: rgba(248, 185, 8, 0.7);
+    border-radius: 30px;
+    margin-top: 10px;
+    /* margin-bottom: 40px; */
+    padding-top: 10px;
 }
 .caja-top{
     display: flex;
@@ -29,17 +30,17 @@ margin-bottom: 40px;
     text-align: justify;
     padding-top: 0px;
     padding-bottom: 0px;
-    width: 90%;
- height: 110px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
+    width: 80%;
+    height: 110px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 20px;
 /* or 157% */
-
-color: #5B555C;
-transform: translate(5%, 2%);
+    color: #5B555C;
+    /* transform: translate(5%, 2%); */
 }
 .caja-top img{
     width: 20%;

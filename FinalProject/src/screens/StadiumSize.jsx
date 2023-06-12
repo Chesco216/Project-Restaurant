@@ -6,7 +6,7 @@ const StadiumSize = () => {
     <div>
       <Header />
       <div className="container-s">
-        <MenuOption category="Stadium" />
+        <MenuOption category="Stadium" nav={'/menu/menu2'}/>
       </div>
     </div>
   );

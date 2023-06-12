@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import './Home.css'
 import PromoMes from "../components/PromoMes";
 import PizzaSliderH from "../components/PizzaSliderH";
-import PizzaContainer from "../components/PizzaContainer";
 
 const Home = () => {
   return (

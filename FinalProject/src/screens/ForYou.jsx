@@ -6,7 +6,7 @@ const ForYou = () => {
     <div>
       <Header />
       <div className="container-for">
-        <MenuOption category="Recomendaciones para Ti" />
+        <MenuOption category="Recomendaciones para Ti" nav={'/menu'}/>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import  EmailCardContainer  from '../components/EmailCardContainer'
 import  Header  from '../components/Header'
 import Footer  from '../components/Footer'
 import './Login.css'
+import { NavLink } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -10,6 +11,9 @@ const Login = () => {
         <Header />
         <EmailCardContainer/>
         <button className='login_button2'>Login</button>
+        <NavLink to={'/register'}>
+          <button className='login_button2'>Volver</button>
+        </NavLink>
         <Footer/>
 
     </div>

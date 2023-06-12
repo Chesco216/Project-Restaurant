@@ -1,4 +1,8 @@
+.page-pizza-tam-container
+{
+}
 .apT
 {
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }

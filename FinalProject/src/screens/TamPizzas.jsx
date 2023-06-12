@@ -3,12 +3,15 @@ import { ButtonsTContainer } from '../components/ButtonsTContainer'
 import { PizzaEncabezado } from '../components/PizzaEncabezado'
 import Header from '../components/Header'
 
-export const TamPizzas = () => {
+const TamPizzas = () => {
   return (
-    <div className='apT'>
+    <div className="apT">
             <Header />
-            <PizzaEncabezado/>
-            <ButtonsTContainer/>            
+            <div className="page-pizza-tam-container">
+              <PizzaEncabezado/>
+              <ButtonsTContainer/>            
+            </div>
     </div>
   )
 }
+export default TamPizzas;

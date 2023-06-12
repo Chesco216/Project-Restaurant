@@ -6,7 +6,7 @@ const FamiliarSize = () => {
     <div>
       <Header />
       <div className="container-f">
-        <MenuOption category="Familiar" />
+        <MenuOption category="Familiar" nav={'/menu/menu2'}/>
       </div>
     </div>
   );

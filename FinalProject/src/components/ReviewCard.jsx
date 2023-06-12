@@ -7,7 +7,7 @@ export const ReviewCard = () => {
       <div className="caja-top">
         <img src="/static/images/imgUsuario1.svg" alt="" />
         <div className="caja-top-name">
-          <span>Pablo</span>
+          <span className="name-review-card">Pablo</span>
           <i className="star-container">
             <Icon
               icon="solar:star-bold"

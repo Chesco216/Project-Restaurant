@@ -1,12 +1,30 @@
 import React from 'react'
-import  MenuAppContainer  from '../components/MenuAppContainer'
+import Menu_App from "../components/MenuApp"
 import Footer  from '../components/Footer'
 import './Menu.css'
+import { NavLink } from 'react-router-dom'
 
 const Menu = () => {
   return (
     <div className='page_container_menu'>
-        <MenuAppContainer/>
+      <div className="menuApp-container">
+        <NavLink to={'/account/mipedido'}>
+          <Menu_App  menuapp_input="Mi Pedido"/>
+        </NavLink>
+        <NavLink to={'/account/frecuentes'}>
+          <Menu_App  menuapp_input="Pedidos Frecuentes"/>
+        </NavLink>
+        <NavLink to={'/account/historial'}>
+        </NavLink>
+          <Menu_App  menuapp_input="Historial de Pedidos"/>
+        <NavLink to={'/account/pagos'}>
+          <Menu_App  menuapp_input="Tipo de Pago"/> 
+        </NavLink>
+        <NavLink to={'/account/invita'}>
+          <Menu_App  menuapp_input="Invita a tus amigos"/> 
+        </NavLink>
+    
+     </div>
         <Footer/>
 
     </div>
