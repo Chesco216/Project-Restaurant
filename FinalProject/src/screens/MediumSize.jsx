@@ -8,7 +8,7 @@ const MediumSize = () => {
     <div className="head">
       <Header />
       <div className="menu-option-container">
-        <MenuOption category="Medianas" />
+        <MenuOption category="Medianas" nav={'/menu/menu2'}/>
       </div>
     </div>
   );

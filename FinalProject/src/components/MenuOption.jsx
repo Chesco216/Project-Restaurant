@@ -5,7 +5,8 @@ import PizzaCard from "./PizzaCard";
 import DrinkCard from "./DrinkCard";
 import sizes from "../assets/sizem.json";
 import drinks from "../assets/drinkm.json";
-const MenuOption = ({ category }) => {
+import { NavLink } from "react-router-dom";
+const MenuOption = ({ category , nav}) => {
   let content;
   if (category === "Bebidas") {
     content = drinks.map((drink) => (
@@ -49,6 +50,7 @@ const MenuOption = ({ category }) => {
   return (
     <div className="option-container">
       <div className="type">
+        <NavLink to={nav}>
         <Icon
           className="back"
           icon="material-symbols:arrow-back-ios-new-rounded"
@@ -56,9 +58,10 @@ const MenuOption = ({ category }) => {
           width="24"
           height="24"
         />
+        </NavLink>
         <h2 className="options">{category}</h2>
       </div>
-      <div className="pizza-card-container">{content}</div>
+      <div className="pizza-card-container-janna">{content}</div>
     </div>
   );
 };

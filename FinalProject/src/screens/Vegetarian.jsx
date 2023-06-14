@@ -7,7 +7,7 @@ const Vegetarian = () => {
     <div>
       <Header />
       <div className="container-v">
-        <MenuOption category="Opciones Vegetarianas" />
+        <MenuOption category="Opciones Vegetarianas" nav={'/menu'}/>
       </div>
     </div>
   );

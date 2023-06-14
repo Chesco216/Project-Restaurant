@@ -6,7 +6,7 @@ const BigSize = () => {
     <div>
       <Header />
       <div className="container-b">
-        <MenuOption category="Grandes" />
+        <MenuOption category="Grandes" nav={'/menu/menu2'}/>
       </div>
     </div>
   );
