@@ -8,8 +8,6 @@ export const PediContainer = () => {
       <PediCard />
       <PediCard />
       <PediCard />
-      
-
       <div className="Tiempo">
         <p>Tiempo aproximado de entrega 30 min</p>
       </div>
