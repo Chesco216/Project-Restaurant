@@ -19,6 +19,8 @@ import MiPedido from "./screens/MiPedido";
 import Frequent from "./screens/Frequent";
 import { OrderHistory } from "./screens/OrderHistory";
 import { OrderView } from "./screens/OrderView";
+import ShareLink from "./screens/ShareLink";
+import Pagos from "./screens/Pagos";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
           <Route path="/account/mipedido" element={<MiPedido />} />
           <Route path="account/frecuentes" element={<Frequent />} />
           <Route path="account/historial" element={<OrderHistory />} />
+          <Route path="account/invita" element={<ShareLink />} />\
+          <Route path="account/pagos" element={<Pagos />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -50,7 +54,8 @@ function App() {
 }
 
 export default App;
-
+///account/pagos
+///account/invita
 // <<<<<<< HEAD
 // import  useState  from "react";
 // import "./App.css";

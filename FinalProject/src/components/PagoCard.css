@@ -1,35 +1,16 @@
-.pago_container
-{
-    width: 40vw;
-    height: 50px;
-    background-color: #FFFFFF;
-    margin-top: 30px; 
-    display: flex;
+.pago_container {
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(360deg, #58b96d 0%, #3a8f4d 100%);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-
-.pagos-input{
-width: 120px;
-height: 140px;
-left: 0px;
-top: 0px;
-align-content: center;
-border-color: #13bd54;
-background: linear-gradient(360deg, #58B96D 0%, #3A8F4D 100%);
-border-radius: 30px;
- }
-
-.subtittle_metpagos{
-width: 90px;
-height: 10px;
-display: flex;
-align-content: center;
-margin-top: 90px;   
-margin-left: -100px;
-font-family: 'Poppins', sans-serif;
-font-weight: 700;
-font-size: 12px;
-line-height: 21px;
-color: #ffffff;
-    }
-    
+.tipo-pago {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
